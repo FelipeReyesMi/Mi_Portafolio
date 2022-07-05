@@ -44,7 +44,7 @@ nav ul li:hover{
 .hide{
     
     background-color: #164884;
-    padding: 16px;
+    padding: 20px;
     cursor: pointer;
     display: none;
 }
@@ -69,6 +69,7 @@ nav ul li:hover{
     }
     .menu{
         padding-left: 12%;
+        padding-top: 3px;
         font-family: 'Century Gothic', sans-serif;
         color: white;
     }
