@@ -25,7 +25,13 @@ nav ul li{
     transition: all ease-in-out 300ms;
    
 }
+.nombre{
+    float: left;
+    color: white;
+    padding-top: 17px;
+    padding-left: 10%;
 
+}
 /*nav ul li{
     display: inline-block;
     padding: 200px;
@@ -49,7 +55,58 @@ nav ul li:hover{
     display: none;
 }
 
-@media (max-width: 768px){
+
+@media (max-width: 1089px){
+    nav ul li{
+        padding: 7px;
+       
+    }
+    nav ul{
+        padding: 2%;
+    }
+    .nombre{
+        padding-left: 3%;
+        padding-top: 5px;
+    }
+}
+
+@media (max-width: 856px){
+    nav ul li{
+        padding: 5px;
+       
+    }
+    .nombre{
+        padding-left: 2%;
+    }
+}
+@media (max-width: 822px){
+    ul li{
+        width: 100%;
+        padding: 16px;
+        text-align: left;
+    }
+    
+    nav ul{
+        display: none;
+    }
+
+    .hide {
+        display: block;
+    }
+
+    .hide img{
+        width: 6%;
+    }
+    .menu{
+        padding-left: 8%;
+        padding-top: 3px;
+        font-family: 'Century Gothic', sans-serif;
+        color: white;
+    }
+    
+}
+
+@media (max-width: 450px){
     ul li{
         width: 100%;
         padding: 16px;
