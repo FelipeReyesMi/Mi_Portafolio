@@ -119,7 +119,7 @@ body {
     margin-top: 10%;
     padding-top: 2%;
     padding-bottom: 3%;
-    background: rgba(0, 191, 255, 0.233);
+    background: rgba(0, 119, 255, 0.233);
     padding-left: 8%;
     padding-right: 35%;
     font-family: 'Century Gothic', sans-serif;
@@ -138,13 +138,13 @@ body {
     text-align: justify;
 }
 
-/***************seccion "Skills"***************/
+/***************seccion "Skills y Hobbies"***************/
 .skills{
     padding-top: 2%;
     padding-left: 8%;
     padding-right: 8%;
     margin-top: 6%;
-    background: rgba(169, 169, 169, 0.288);
+    
 }
 .skills .title{
     text-align: center;
@@ -172,6 +172,8 @@ body {
     padding-bottom: 20px;
     text-align: center;
 }
+
+/***************seccion "Formación académica"***************/
 
 
 
