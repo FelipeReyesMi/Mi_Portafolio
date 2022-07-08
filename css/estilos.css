@@ -2,12 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+
 }
 
-html{
-    scroll-behavior: smooth;
+html {
+    scroll-behavior: [ auto smooth];
 }
+
 body {
     background: url();
     background-repeat: no-repeat;
@@ -21,7 +22,7 @@ body {
 
 .header ul {
     list-style: none;
-    background: #164884;
+    background-image: linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #35eb93 100%);
     text-align: right;
 }
 
@@ -58,7 +59,7 @@ body {
 
 .hide {
 
-    background-color: #164884;
+    background-image: linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #35eb93 100%);
     padding: 20px;
     cursor: pointer;
     display: none;
@@ -123,7 +124,8 @@ body {
     margin-top: 10%;
     padding-top: 2%;
     padding-bottom: 3%;
-    background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
+    background-image: linear-gradient(to top, #4481eb 0%, #04befe 100%);
+    
     padding-left: 8%;
     padding-right: 35%;
     font-family: 'Century Gothic', sans-serif;
@@ -141,20 +143,22 @@ body {
 }
 
 /***************seccion "Skills y Hobbies"***************/
-.skills{
+.skills {
     padding-top: 2%;
     padding-left: 8%;
     padding-right: 8%;
     margin-top: 6%;
-    
+
 }
-.skills .title{
+
+.skills .title {
     text-align: center;
     font-weight: 600;
     padding-bottom: 5%;
 }
-.contenedor{
-    
+
+.contenedor {
+
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -162,13 +166,14 @@ body {
     padding-bottom: 3%;
 }
 
-.contenedor img{
+.contenedor img {
     width: 150px;
     padding-right: 25px;
     padding-left: 25px;
-    
+
 }
-.contenedor p{
+
+.contenedor p {
     padding-right: 25px;
     padding-left: 25px;
     padding-bottom: 20px;
@@ -176,7 +181,7 @@ body {
 }
 
 /***************seccion "Formación académica"***************/
-.academica{
+.academica {
     margin-top: 10%;
     padding-top: 2%;
     padding-bottom: 2%;
@@ -185,13 +190,15 @@ body {
     padding-right: 8%;
     font-family: 'Century Gothic', sans-serif;
 }
-.academica p{
+
+.academica p {
     text-align: center;
     padding-bottom: 2%;
     color: rgb(0, 0, 0);
 }
-.formacion{
-    
+
+.formacion {
+
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -199,64 +206,75 @@ body {
     justify-content: center;
     padding-bottom: 2%;
 }
-.formacion img{
+
+.formacion img {
     width: 400px;
     height: 280px;
     padding-right: 60px;
-    padding-left:60px;
+    padding-left: 60px;
     padding-top: 30px;
     padding-bottom: 20px;
 }
+
 /***************seccion "Experiencia profesional"***************/
-.experiencia, .experiencia2{
+.experiencia,
+.experiencia2 {
     padding-left: 8%;
     padding-right: 8%;
-   padding-bottom: 30%;
-    
+    padding-bottom: 25%;
+
 }
-.experiencia img{
+
+.experiencia img {
     float: left;
     width: 600px;
     height: 350px;
     padding-right: 3%;
     padding-bottom: 3%;
 }
-.btn .sub{
-    font-size: 80%;
-}
-.experiencia2 img{
+
+.experiencia2 img {
     float: right;
     width: 600px;
     height: 350px;
     padding-bottom: 3%;
 }
-.btn p{
+
+.btn .sub {
+    font-size: 80%;
+}
+.btn p {
     text-align: justify;
     padding-bottom: 1%;
 }
-button{
+
+button {
     padding-top: 1%;
     padding-bottom: 1%;
     padding-left: 1%;
     padding-right: 1%;
 }
-.profesional{
+
+.profesional {
     padding-top: 3%;
 }
 
-.repo{
+.repo {
     color: blue;
     border-color: blue;
     background: white;
     cursor: pointer;
     border-radius: 50px;
 }
-.repo:hover,.demo:hover{
+
+.repo:hover,
+.demo:hover {
     color: white;
     border-color: blue;
     background: black;
 }
-.demo{
+
+.demo {
     color: white;
     border-color: blue;
     background: blue;
@@ -264,13 +282,52 @@ button{
     border-radius: 50px;
 }
 
+/***************seccion "Contacto"***************/
 
+.contacto {
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 8%;
+    padding-top: 5%;
+    font-family: 'Century Gothic', sans-serif;
+    background-image: linear-gradient(to top, #3b41c5 0%, #a981bb 49%, #ffc8a9 100%);
+}
 
+.contacto img {
+    float: left;
+    width: 50%;
+    height: 550px;
+    padding-right: 2%;
+}
 
+.contacto .titulo {
+    color: black;
+    font-size: 200%;
+    padding-bottom: 1%;
 
+}
 
+.contacto p {
+    font-size: 15px;
+}
 
+.contacto .entrada, .entradasms {
+    color: black;
+    text-align: justify;
+    font-size: 17px;
+    width: 50%;
+    height: 35px;
+    padding-left: 1%;
+}
+.entradasms{
+    height: 120px;
+}
 
+.contacto .aprt {
+    padding-top: 2%;
+    font-size: 17px;
+    padding-right: 2%;
+}
 
 
 
@@ -329,8 +386,8 @@ button{
         color: white;
     }
 
-     /**************Comienzo de la seccion de "Descripcion"***************/
-     .titulo {
+    /**************Comienzo de la seccion de "Descripcion"***************/
+    .titulo {
         font-size: 30px;
     }
 
@@ -401,4 +458,57 @@ button{
     .desc {
         font-size: 12px;
     }
+/*******************************************/
+    .formacion img {
+        width: 290px;
+        height: 190px;
+        
+    }
+
+    .experiencia img, .experiencia2 img {
+        width: 350px;
+        height: 200px;
+        float: none;
+    }
+    
+    button {
+        padding-top: 2%;
+        padding-bottom: 2%;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
+    .contacto img {
+        width: 50%;
+        height: 320px;
+    }
+
+    .contacto .titulo {
+        font-size: 100%;
+    
+    }
+    
+    .contacto p {
+        font-size: 10px;
+    }
+    
+    .contacto .entrada, .entradasms {
+        font-size: 10px;
+        width: 50%;
+        height: 20px;
+    }
+    .entradasms{
+        height: 40px;
+    }
+    
+    .contacto .aprt {
+        font-size: 10px;
+    }
+
+    .contacto {
+        padding-bottom: 12%;
+    }
+
+
+    
 }
