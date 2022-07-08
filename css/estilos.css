@@ -125,7 +125,7 @@ body {
     padding-top: 2%;
     padding-bottom: 3%;
     background-image: linear-gradient(to top, #4481eb 0%, #04befe 100%);
-    
+
     padding-left: 8%;
     padding-right: 35%;
     font-family: 'Century Gothic', sans-serif;
@@ -243,6 +243,7 @@ body {
 .btn .sub {
     font-size: 80%;
 }
+
 .btn p {
     text-align: justify;
     padding-bottom: 1%;
@@ -311,7 +312,8 @@ button {
     font-size: 15px;
 }
 
-.contacto .entrada, .entradasms {
+.contacto .entrada,
+.entradasms {
     color: black;
     text-align: justify;
     font-size: 17px;
@@ -319,7 +321,8 @@ button {
     height: 35px;
     padding-left: 1%;
 }
-.entradasms{
+
+.entradasms {
     height: 120px;
 }
 
@@ -332,7 +335,15 @@ button {
 
 
 /***************Comienzo de Responsive***************/
-
+@media (max-width: 1111px){
+    .header ul li {
+        padding: 22px;
+    }
+    .nombre {
+        padding-top: 22px;
+        padding-left: 5%;
+    }
+}
 @media (max-width: 1089px) {
     .header ul li {
         padding: 7px;
@@ -348,7 +359,13 @@ button {
         padding-top: 5px;
     }
 }
+@media (max-width: 969px){
+    .formacion img {
+        width: 350px;
+        height: 290px;
 
+    }
+}
 @media (max-width: 880px) {
     .header ul li {
         padding: 2px;
@@ -358,6 +375,23 @@ button {
     .nombre {
         padding-left: 2%;
     }
+    .formacion img {
+        width: 340px;
+        height: 270px;
+
+    }
+    .experiencia img,
+    .experiencia2 img {
+        width: 470px;
+        height: 290px;
+        padding-bottom: 8%;
+    }
+
+    .contacto img {
+        width: 50%;
+        height: 510px;
+    }
+
 }
 
 @media (max-width: 822px) {
@@ -406,6 +440,64 @@ button {
 
     .desc {
         font-size: 15px;
+    }
+
+    /**********************************************/
+    .formacion img {
+        width: 290px;
+        height: 270px;
+
+    }
+
+    .experiencia img,
+    .experiencia2 img {
+        width: 370px;
+        height: 220px;
+        float: left;
+    }
+
+    .experiencia2 img {
+        float: right;
+    }
+
+    button {
+        padding-top: 2%;
+        padding-bottom: 2%;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
+    .contacto img {
+        width: 50%;
+        height: 450px;
+    }
+
+    .contacto .titulo {
+        font-size: 40px;
+
+    }
+
+    .contacto p {
+        font-size: 15px;
+    }
+
+    .contacto .entrada,
+    .entradasms {
+        font-size: 10px;
+        width: 50%;
+        height: 30px;
+    }
+
+    .entradasms {
+        height: 70px;
+    }
+
+    .contacto .aprt {
+        font-size: 15px;
+    }
+
+    .contacto {
+        padding-bottom: 8%;
     }
 
 }
@@ -458,19 +550,23 @@ button {
     .desc {
         font-size: 12px;
     }
-/*******************************************/
+
+    /*******************************************/
     .formacion img {
         width: 290px;
         height: 190px;
-        
+
     }
 
-    .experiencia img, .experiencia2 img {
+    .experiencia img,
+    .experiencia2 img {
         width: 350px;
         height: 200px;
         float: none;
+        display: block;
+        margin: 0px auto;
     }
-    
+
     button {
         padding-top: 2%;
         padding-bottom: 2%;
@@ -485,22 +581,24 @@ button {
 
     .contacto .titulo {
         font-size: 100%;
-    
+
     }
-    
+
     .contacto p {
         font-size: 10px;
     }
-    
-    .contacto .entrada, .entradasms {
+
+    .contacto .entrada,
+    .entradasms {
         font-size: 10px;
         width: 50%;
         height: 20px;
     }
-    .entradasms{
+
+    .entradasms {
         height: 40px;
     }
-    
+
     .contacto .aprt {
         font-size: 10px;
     }
@@ -508,7 +606,4 @@ button {
     .contacto {
         padding-bottom: 20%;
     }
-
-
-    
 }
