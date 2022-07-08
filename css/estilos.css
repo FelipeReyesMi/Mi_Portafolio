@@ -2,8 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
+html{
+    scroll-behavior: smooth;
+}
 body {
     background: url();
     background-repeat: no-repeat;
@@ -119,7 +123,7 @@ body {
     margin-top: 10%;
     padding-top: 2%;
     padding-bottom: 3%;
-    background: rgba(0, 119, 255, 0.233);
+    background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
     padding-left: 8%;
     padding-right: 35%;
     font-family: 'Century Gothic', sans-serif;
@@ -127,13 +131,11 @@ body {
 
 .title {
     font-size: 35px;
-    color: rgb(90, 90, 90);
+    color: rgb(0, 0, 0);
     font-weight: 500
 }
 
 .desc {
-
-
     padding-top: 2%;
     text-align: justify;
 }
@@ -174,15 +176,93 @@ body {
 }
 
 /***************seccion "Formación académica"***************/
+.academica{
+    margin-top: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-image: linear-gradient(-20deg, #d558c8 0%, #24d292 100%);
+    padding-left: 8%;
+    padding-right: 8%;
+    font-family: 'Century Gothic', sans-serif;
+}
+.academica p{
+    text-align: center;
+    padding-bottom: 2%;
+    color: rgb(0, 0, 0);
+}
+.formacion{
+    
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    justify-content: center;
+    padding-bottom: 2%;
+}
+.formacion img{
+    width: 400px;
+    height: 280px;
+    padding-right: 60px;
+    padding-left:60px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+/***************seccion "Experiencia profesional"***************/
+.experiencia, .experiencia2{
+    padding-left: 8%;
+    padding-right: 8%;
+   padding-bottom: 30%;
+    
+}
+.experiencia img{
+    float: left;
+    width: 600px;
+    height: 350px;
+    padding-right: 3%;
+    padding-bottom: 3%;
+}
+.btn .sub{
+    font-size: 80%;
+}
+.experiencia2 img{
+    float: right;
+    width: 600px;
+    height: 350px;
+    padding-bottom: 3%;
+}
+.btn p{
+    text-align: justify;
+    padding-bottom: 1%;
+}
+button{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+.profesional{
+    padding-top: 3%;
+}
 
-
-
-
-
-
-
-
-
+.repo{
+    color: blue;
+    border-color: blue;
+    background: white;
+    cursor: pointer;
+    border-radius: 50px;
+}
+.repo:hover,.demo:hover{
+    color: white;
+    border-color: blue;
+    background: black;
+}
+.demo{
+    color: white;
+    border-color: blue;
+    background: blue;
+    cursor: pointer;
+    border-radius: 50px;
+}
 
 
 
